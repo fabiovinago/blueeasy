@@ -226,4 +226,61 @@
 .text-center{
     text-align:center;
 }
-/* NAVIGATION MENU */
+/* BODY */
+
+body{
+    width: 1920px;
+    background: #515f67;
+}
+/*NAVIGATIE*/
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    color: #fff;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+nav li{
+    display: inline-block;
+    padding: 25px 25px;
+
+}
+
+.logo span{
+    color: #4bcaff;
+}
+.logo{
+    color:#fff;
+    @font-face {
+        font-family: "Segoe UI";
+        src: url(" ../fonts/Segoe UI.woff");
+    }
+}
+
+.hero{
+    background-image: url("../img/background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+#wrapper{
+    width: 1175px;
+    margin: 0 auto;
+
+}
+#wrapper h1{
+    padding-top: 252px;
+    padding-bottom: 252px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 42pt;
+}
+
+
+
