@@ -226,61 +226,103 @@
 .text-center{
     text-align:center;
 }
+/*FONTS*/
+@font-face {
+    font-family: segoeui;
+    src: url('../fonts/Segoe UI.woff');
+}
+@font-face{
+    font-family: segoeuiitalic;
+    src:url('../fonts/Segoe UI Italic.woff');
+}
+@font-face{
+    font-family: segoeuibold;
+    src:url('../fonts/Segoe UI Bold.woff');
+}
+@font-face{
+    font-family: segoeuibolditalic;
+    src:url('../fonts/Segoe UI Bold Italic.woff');
+}
+@font-face{
+    font-family: segoeuilight;
+    src:url('../fonts/Segoe UI Light.ttf');
+}
 /* BODY */
-
 body{
-    width: 1920px;
-    background: #515f67;
-}
-/*NAVIGATIE*/
-
-nav ul{
-    text-align: center;
-    list-style-type: none;
-    color: #fff;
-}
-
-nav a{
-    text-decoration: none;
-    color: #fff;
-    display: block;
-}
-
-nav li{
-    display: inline-block;
-    padding: 25px 25px;
+    width:1920px;
+    margin:0 auto;
+    background-color: #515f67;
 
 }
-
-.logo span{
-    color: #4bcaff;
+header{
+    background:url('../img/background.png') no-repeat;
 }
-.logo{
+.wrapper{
+    width:1175px;
+    margin:0 auto; /*centreren midden*/
+}
+#logonav{
+
+}
+nav{
+    background:rgba(57,68,75,0.7);
     color:#fff;
-    @font-face {
-        font-family: "Segoe UI";
-        src: url(" ../fonts/Segoe UI.woff");
-    }
 }
-
-.hero{
-    background-image: url("../img/background.png");
-    background-repeat: no-repeat;
-    background-size: auto;
+nav p{
+    font-family: segoeui;
+    font-size:30px;
 
 }
-#wrapper{
-    width: 1175px;
-    margin: 0 auto;
-
+nav p span{
+    color:#4bcaff;
 }
-#wrapper h1{
-    padding-top: 252px;
-    padding-bottom: 252px;
-    text-align: center;
+nav p, nav ul{
+    width:50%
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+    font-family:segoeuibold;
+    border-top:2px solid transparent;
+    padding:10px 20px;
+}
+.active{
+    color:#4bcaff;
+    padding:10px 20px;
+}
+nav ul li a:hover{
+    border-top:2px solid #4bcaff;
+    color:#4bcaff;
+}
+h1{
+    line-height: 1.5;
+    color:#fff;
+    font-family: segoeuilight;
+    font-size:42px;
+    padding-top:159.5px;
+    padding-bottom:159.5px;
+    margin: 0;
+}
+h1 span{
+    background:#515f68;
+}
+.blueback{
+    background-color: #4bcaff;
+    padding: 42px 42px;
+}
+.coffee, .instant, .serious, .frame{
+    font-family: "Segoe UI";
+    color: #fff;
+}
+#services{
+    width:1175px;
+    margin:0 auto;
+    font-family: "Segoe UI Semibold";
     color: #ffffff;
-    font-size: 42pt;
+
 }
-
-
 
