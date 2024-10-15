@@ -326,3 +326,9 @@ h1 span{
 
 }
 
+.defaultsection{
+    width:1175px;
+    margin:0 auto;
+    font-family: "Segoe UI Semibold";
+    color: #ffffff;
+
